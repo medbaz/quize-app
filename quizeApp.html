@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quizeApp.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div id="quiz">
+        <div id="quizeHeader">
+        <h1>Quiz App</h1> <div id="square" class="square" ></div></div>
+        <div id="quiz-progress">
+          <!-- <div id="question-number"></div>
+                <div id="question-number"></div>
+                <div id="question-number"></div>
+                <div id="question-number"></div> -->
+        </div>
+        <div class="main-display">
+          <p id="question"></p>
+          <div id="options">
+            <!-- <div class="theoption" id="response" >qsdf</div> -->
+            <!-- <div class="option">qsdf</div>
+                
+                <div class="option">qsdf</div>
+                <div class="option">qsdf</div> -->
+          </div>
+        </div>
+        <div id="navigation">
+          <button id="previous" class="nav-button">Previous</button>
+          <button id="next" class="nav-button">Next</button>
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+      
+      <div id="result-container" class="hidden">
+        <h2>Your Results</h2>
+        <p id="score"></p>
+        <button id="restart" class="nav-button">Restart Quiz</button>
+      </div>
+    </div>
+
+    <script src="quizeScript.js"></script>
+  </body>
+</html>
